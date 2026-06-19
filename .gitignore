@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+generated/
+_smoketest.py
+.streamlit/secrets.toml

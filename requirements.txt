@@ -1,0 +1,9 @@
+streamlit>=1.40
+openai>=1.40
+pydantic>=2.7
+pydantic-settings>=2.3
+python-dotenv>=1.0
+reportlab>=4.1
+requests>=2.31
+fastapi>=0.110
+uvicorn[standard]>=0.29
