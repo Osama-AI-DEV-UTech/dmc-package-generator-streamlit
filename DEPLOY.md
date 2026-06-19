@@ -37,6 +37,7 @@ OPENAI_MODEL = "gpt-4o"
 OPENAI_RESEARCH_MODEL = "gpt-4o"
 ENABLE_WEB_SEARCH = "true"
 ADMIN_MARGIN = "0.28"
+<<<<<<< HEAD
 
 # Login password (REQUIRED — the app is locked until this is set)
 APP_PASSWORD = "choose-a-strong-password"
@@ -50,6 +51,9 @@ APP_PASSWORD = "choose-a-strong-password"
 > set, the app stays locked (fail-closed) so it can never be left open to API abuse.
 > After login, users stay signed in for the session; a **Log out** button is in the sidebar.
 > 5 wrong attempts trigger a 60-second lockout.
+=======
+```
+>>>>>>> cc002af36067b30f97bc2563e88f27c612b8d4c9
 Click **Save**.
 
 ## 4) Deploy

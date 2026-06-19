@@ -16,8 +16,11 @@ import tempfile
 
 import streamlit as st
 
+<<<<<<< HEAD
 import auth
 
+=======
+>>>>>>> cc002af36067b30f97bc2563e88f27c612b8d4c9
 st.set_page_config(page_title="DMC Package Generator", page_icon="🧭", layout="wide")
 
 # ---- API key: Streamlit secrets first, then environment -----------------
@@ -75,12 +78,17 @@ st.markdown("<div class='hero'><h1>🧭 Enterprise DMC Package Generator</h1>"
             "and a no-price operator copy). Umrah &amp; Hajj aware.</p></div>",
             unsafe_allow_html=True)
 
+<<<<<<< HEAD
 # 🔒 Password gate — nothing below renders (and no OpenAI call can fire) until login.
 auth.require_login()
 
 with st.sidebar:
     st.subheader("⚙️ Status")
     auth.logout_button()
+=======
+with st.sidebar:
+    st.subheader("⚙️ Status")
+>>>>>>> cc002af36067b30f97bc2563e88f27c612b8d4c9
     if settings.has_openai:
         st.success(f"OpenAI ready · model {settings.openai_model} · web search "
                    f"{'on' if settings.enable_web_search else 'off'}")
